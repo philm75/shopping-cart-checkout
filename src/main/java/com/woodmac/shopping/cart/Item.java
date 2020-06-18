@@ -11,7 +11,7 @@ public class Item {
 	private final double discount;
 	
 	private Item(String name, double price, double discount) {	
-		if (name == null || name.length() == 0) {
+		if (name == null || name.isEmpty()) {
 			throw new IllegalArgumentException("Name is required");			
 		}
 		
