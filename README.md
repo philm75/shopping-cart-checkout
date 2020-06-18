@@ -19,21 +19,21 @@ I also want to see:
 - Total price to be paid
 
 #### Example
-A user adds two items to their basket, each worth £10.00.
+A user adds two items to their basket, each worth Â£10.00.
 
-Currently, there is a £5 discount for each item.
+Currently, there is a Â£5 discount for each item.
 
 The user's shopping basket should look like this:
 
 - Items: First item name, Second item name
-- Price: £20.00
-- Discount: £10.00
-- Total: £10.00
+- Price: Â£20.00
+- Discount: Â£10.00
+- Total: Â£10.00
 
 #### Technologies Used
 * Language: Java
 * Build: Maven
-* Testing: JUnit, Hamcrest
+* Testing: JUnit
 
 #### PreRequisites
 * Java 11
