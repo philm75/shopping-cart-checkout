@@ -1,6 +1,8 @@
 ## Author
 Name: Phil Merrilees
+
 Mobile: 07795066652
+
 Email: merrileespp@hotmail.co.uk
 
 ## Task
@@ -28,6 +30,17 @@ The user's shopping basket should look like this:
 - Discount: £10.00
 - Total: £10.00
 
-#### Installation Requirements
-Java 11
-Maven 3
+#### Technologies Used
+* Language: Java
+* Build: Maven
+* Testing: JUnit, Hamcrest
+
+#### PreRequisites
+* Java 11
+* Maven 3.3+
+
+#### Testing
+* To execute the tests run mvn test
+
+#### Package
+* To package the code run mvn clean package
